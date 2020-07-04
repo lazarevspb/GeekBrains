@@ -23,7 +23,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class gameWord {
+public class GameWord {
     public static void main(String[] args) {
         boolean flagWin = false;
 
