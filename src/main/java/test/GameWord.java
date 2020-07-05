@@ -46,6 +46,7 @@ public class GameWord {
             if (guessWordString.equals(userAnswer)) {
                 System.out.printf("%nВы угадали, поздравляем.%n");
                 flagWin = true;
+                scannerInputWord.close();
             } else {
                 resultString = comparisonChar(userAnswer, guessWordString);
                 System.out.printf("%s%n%s%n%s%n", "Вы смогли угадать только указанные ниже буквы: ", resultString, "Попробуйте еще. ");
