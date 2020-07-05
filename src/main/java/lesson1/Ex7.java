@@ -5,7 +5,7 @@ package lesson1;
     указанное_имя!»;
 */
 
-public class ex7 {
+public class Ex7 {
     public static void main(String[] args) {
 
         printName("Иван");
